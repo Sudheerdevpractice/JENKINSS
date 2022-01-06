@@ -1,7 +1,16 @@
-sudo dnf update -y
-sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
-sudo yum upgrade
-sudo yum install epel-release java-11-openjdk-devel
-sudo yum install jenkins
-sudo systemctl daemon-reload
+commands used to install jenkins from redhat
+
+
+1. sudo dnf update -y
+
+2. sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+3. sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+4. sudo yum upgrade
+
+5. sudo yum install epel-release java-11-openjdk-devel
+
+6. sudo yum install jenkins
+
+7. sudo systemctl daemon-reload
