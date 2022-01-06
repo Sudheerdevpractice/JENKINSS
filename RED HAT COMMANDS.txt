@@ -1,3 +1,5 @@
+Commands to install jenkins in RED HAT ami
+
 sudo dnf update -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
