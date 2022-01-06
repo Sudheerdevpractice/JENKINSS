@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 commands used to install jenkins from redhat
 
+=======
+Commands to install jenkins in RED HAT ami
+>>>>>>> d80cf3c48b333f9d4fcbf0e02b1ba7dd025ea5d8
 
 1. sudo dnf update -y
 
